@@ -1,6 +1,6 @@
 // Exercise-1 --> Write a function to filter out falsy values from array.
 
-let removeFalsyValues = [33,'salam',true,null,false,0]
+let removeFalsyValues = [33,'salam',true,null,false,0];
 removeFalsyValues.pop();
 removeFalsyValues.pop();
 removeFalsyValues.pop();
@@ -26,7 +26,7 @@ function remove(arr, value) {
     return val != value;
   });
 }
-console.log(remove(removeFromArray, 45))
+console.log(remove(removeFromArray, 45));
 
 // Exercise-5 --> Write a function to get the month name from a particular date.
 
@@ -53,9 +53,9 @@ console.log(renderCopyRight);
 
 // Exercise-8 --> Write a function to check whether a given date is a weekend or not.
 
-let date = new Date('Dec 21, 2020')
+let date = new Date('Dec 21, 2020');
 let currentday = date.getDay();
-let isWeekend = (currentday === 6) || (currentday === 0)
+let isWeekend = (currentday === 6) || (currentday === 0);
 if (isWeekend == true) {
     console.log("true");
 } else {
@@ -69,8 +69,8 @@ console.log(percentage(2345, 190).toFixed(2) + "%");
 
 // Exercise-10 --> Write a function to truncate a text to a certain number of words.
 
-let truncate = (sentence, count) => { return sentence.split(" ").splice(0,count).join(" "); }
-console.log(truncate('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 3))
+let truncate = (sentence, count) => { return sentence.split(" ").splice(0,count).join(" "); };
+console.log(truncate('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 3));
 
 // Exercise-11 --> Write a function to truncate a text if it is longer than the given characters range. (Truncated strings should end with 3 dots ("…") (by default) or with specified given characters.)
 
